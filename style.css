@@ -12,7 +12,7 @@ body{
      text-decoration: none;
  }
 
- .content{
+ .container{
     max-width: 1280px;
     margin: 0 auto;
     padding: 0;
@@ -80,4 +80,52 @@ body{
         }
         .menu{
             padding-top: 35px;
+        }
+
+        .section2{
+            margin-top: 100px;
+
+        }
+
+        .services-text>p{
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+            color: #8643DC;
+        }
+        .line{
+            margin-top: 10px;
+            border: 2px;
+            background: #8643DC;
+            width: 50px;
+            height: 2px;
+        }
+        .services-text > h2{
+            margin-top: 15px;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 48px;
+            color: #25202F;
+        }
+        .content1{
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .content{
+            width: 350px;
+        }
+        .content-img{
+            display: flex;
+            align-items: center;
+        }
+        .content-img>h2{
+            margin-left: 20px;
+        }
+        .content>p{
+            margin-top: 20px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 32px;
+            color: #47444E;
         }
