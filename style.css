@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Red Hat Display';
+        font-style: normal;
+}
+ a{
+     text-decoration: none;
+ }
+
+ .content{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0;
+ }
+ .section{
+     display: flex;
+     justify-content: space-between;
+ }
+ .header{
+     display: flex;
+     padding-top: 65px;
+ }
+ .links{
+     margin-left: 100px;
+     padding-top: 7px;
+     display: flex;
+     justify-content: space-between;
+     width: 338px;
+     }
+     .links>a{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        
+        color: darkgrey;
+        }
+        .links .active{
+            color: black;
+        }
+        .aboutus{
+            margin-top: 125px;
+        }
+        .aboutus>h3{
+        color: #666666;
+        font-size: 24px;
+        font-weight: 100;    
+        }
+        .aboutus>h1{
+         font-size: 50px;
+        }
+        .aboutus>p{
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 32px;
+            color: #25202F;
+        }
+        .btn{
+            margin-top: 50px;
+            width: 200px;
+            height: 60px;
+            background-color: #8643D0;
+            border-radius: 100px;
+            border: none;
+        }
+        .btn>a{
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 32px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        .rightside{
+            display: flex;
+            margin-top: 46px;
+        }
+        .menu{
+            padding-top: 35px;
+        }
